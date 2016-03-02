@@ -6,5 +6,8 @@
     <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
     <property name="hibernate.connection.url">jdbc:postgresql://127.0.0.1:5432/practica1_ingenieria</property>
     <property name="hibernate.connection.username">ricardo</property>
+    <property name="hibernate.connection.password">5531084278</property>
+    <mapping resource="model/InformacionUsuario.hbm.xml"/>
+    <mapping resource="model/Usuario.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
