@@ -1,0 +1,4 @@
+CREATE DATABASE practica1_ingenieria;
+
+CREATE TABLE usuario(
+id_usuario INTEGER NOT NULL PRIMARY KEY,
