@@ -7,18 +7,18 @@
 </h:head>
 <h:body>
     <h:form>
-        <h3>JSF Login Logout</h3>
-        <h:outputText value="Correo_electronico" />
-        <h:inputText id="correo_electronico" value="#{login.correo}"></h:inputText>
-        <h:message for="correo_electronico"></h:message>
+        <h3>Iniciar sesión</h3>
+        <h:outputText value="Correo electronico" />
+        <h:inputText id="correoElectronico" value="#{usuario.correoElectronico}"></h:inputText>
+        <h:message for="correoElectronico"></h:message>
         <br /><br />
         
         <h:outputText value="Contraseña" />
-        <h:inputSecret id="contraseña" value="#{login.contraseña}"></h:inputSecret>
+        <h:inputSecret id="contraseña" value="#{usuario.contraseña}"></h:inputSecret>
         <h:message for="contraseña"></h:message>
         <br /><br />
          
-        <h:commandButton action="#{login.validateUsernamePassword}"
+        <h:commandButton action="#{usuario.validaCorreoContraseña}"
             value="Login"></h:commandButton>
     </h:form>
 </h:body>

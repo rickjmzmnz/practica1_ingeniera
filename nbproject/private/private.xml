@@ -3,9 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/ricardo/NetBeansProjects/practica1_ingenieria/web/index.xhtml</file>
             <file>file:/home/ricardo/NetBeansProjects/practica1_ingenieria/src/java/model/InformacionUsuario.java</file>
             <file>file:/home/ricardo/NetBeansProjects/practica1_ingenieria/src/java/model/Usuario.java</file>
+            <file>file:/home/ricardo/NetBeansProjects/practica1_ingenieria/web/login.xhtml</file>
+            <file>file:/home/ricardo/NetBeansProjects/practica1_ingenieria/src/java/login/Login.java</file>
+            <file>file:/home/ricardo/NetBeansProjects/practica1_ingenieria/src/java/login/Conectar.java</file>
+            <file>file:/home/ricardo/NetBeansProjects/practica1_ingenieria/src/java/login/Sesion.java</file>
+            <file>file:/home/ricardo/NetBeansProjects/practica1_ingenieria/src/java/login/Autorizacion.java</file>
+            <file>file:/home/ricardo/NetBeansProjects/practica1_ingenieria/web/admin.xhtml</file>
+            <file>file:/home/ricardo/NetBeansProjects/practica1_ingenieria/web/WEB-INF/faces-config.xml</file>
         </group>
     </open-files>
 </project-private>
