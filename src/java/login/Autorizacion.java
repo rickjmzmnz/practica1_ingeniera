@@ -25,7 +25,7 @@ import javax.servlet.http.HttpSession;
 @WebFilter(filterName = "AuthFilter", urlPatterns = { "*.xhtml" })
 public class Autorizacion implements Filter {
  
-    public void AutorizacionFilter() {
+    public Autorizacion() {
     }
  
     @Override

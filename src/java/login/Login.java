@@ -16,15 +16,15 @@ import java.sql.SQLException;
  */
 public class Login {
     
-     public static boolean validar(String correoElectronico, String password) {
+     public static boolean validar(String correoElectronico, String contraseña) {
         Connection con = null;
         PreparedStatement ps = null;
  
         try {
             con = Conectar.abrir();
-            ps = con.prepareStatement("Select correo_electronico, contraseña from usuario where uname = ? and password = ?");
+            ps = con.prepareStatement("SELECT correo_electronico, contraseña FROM usuario");
             ps.setString(1, correoElectronico);
-            ps.setString(2, password);
+            ps.setString(2, contraseña);
  
             ResultSet rs = ps.executeQuery();
  
