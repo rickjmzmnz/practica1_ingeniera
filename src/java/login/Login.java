@@ -22,7 +22,7 @@ public class Login {
  
         try {
             con = Conectar.abrir();
-            ps = con.prepareStatement("SELECT correo_electronico, contraseña FROM usuario");
+            ps = con.prepareStatement("SELECT correo_electronico,contraseña FROM usuario WHERE correo_electronico = ? AND contraseña = ?");
             ps.setString(1, correoElectronico);
             ps.setString(2, contraseña);
  
